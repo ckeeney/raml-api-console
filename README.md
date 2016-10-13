@@ -1,5 +1,5 @@
 # raml-api-console
-Run https://github.com/mulesoft/api-console from a docker .
+Run https://github.com/mulesoft/api-console from a docker image.
 
 Check it out on [Dockerhub](https://hub.docker.com/r/ckeeney/raml-api-console/).
 
