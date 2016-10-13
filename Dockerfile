@@ -15,7 +15,7 @@ RUN git checkout ${API_CONSOLE_VERSION:-v3.0.7} \
 RUN npm install
 RUN bower --allow-root install
 
-RUN sed -i 's/<raml-initializer><\/raml-initializer>/<raml-console src="apis\/main.raml" resources-collapsed><\/raml-console>/g' /api-console/dist/index.html
+RUN sed -i 's/<raml-initializer><\/raml-initializer>/<raml-console-loader src="apis\/main.raml"><\/raml-console-loader>/g' /api-console/dist/index.html
 
 # for live reload
 EXPOSE 35729
