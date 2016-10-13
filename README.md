@@ -19,5 +19,6 @@ To show your own documentation, simply mount a volume at `/apis` in the containe
 ```
 docker run -p 9000:9000 -p 35729:35729 -v $(pwd)/raml:/apis ckeeney/raml-api-console
 ```
+Your main documentation must be available in the container at `/apis/main.raml`.
 
 ![Image](https://raw.githubusercontent.com/ckeeney/raml-api-console/master/doc/custom_docs.png)
